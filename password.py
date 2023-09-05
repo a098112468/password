@@ -7,4 +7,6 @@ while e > 0:
         break
     else:
         e = e - 1
-        print('密碼錯誤 還有', e,  '次機會')
+        print('密碼錯誤')
+        if e > 0:
+            print('還有', e, '次機會')
